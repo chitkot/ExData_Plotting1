@@ -50,6 +50,8 @@ hist(feb2007$Global_active_power, main = "Gobal Active Power",
 
   # Save Plot 1 to working directory
 dev.copy(png, 'plot1.png', width = 480, height = 480, units = "px")
+
+  # Close PNG device
 dev.off()
 
 

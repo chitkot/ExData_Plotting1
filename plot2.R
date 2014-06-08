@@ -52,5 +52,7 @@ plot(feb2007$datetime,feb2007$Global_active_power, type="l",
 
   # Save Plot 2 to working directory
 dev.copy(png, 'plot2.png', width = 480, height = 480, units = "px")
+
+  # Close PNG device
 dev.off()
 
